@@ -28,7 +28,7 @@ powerotherspringall = zeros(12,99);
 xsall = zeros(12,100);
 xpall = zeros(12,100);
 
-load('elbow_wl_same_linear.mat');
+load('elbow_wl_same_phase.mat');
 i = 1;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
@@ -57,7 +57,7 @@ powerotherall(i,:) = powerother(2:100,1)';
 xsall(i,:) = xs;
 xpall(i,:) = xp;
 
-load('elbow_mh_wl_linear.mat'); 
+load('elbow_mh_wl_same_phase.mat'); 
 i = 2;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
@@ -86,7 +86,7 @@ powerotherall(i,:) = powerother(2:100,1)';
 xsall(i,:) = xs;
 xpall(i,:) = xp;
 
-load('wrist_wl_linear.mat'); 
+load('wrist_wl_same_phase.mat'); 
 i = 3;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
@@ -115,7 +115,7 @@ powerotherall(i,:) = powerother(2:100,1)';
 xsall(i,:) = xs;
 xpall(i,:) = xp;
 
-load('wrist_mh_wl_linear.mat');
+load('wrist_mh_wl_same_phase.mat');
 i = 4;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
@@ -144,7 +144,7 @@ powerotherall(i,:) = powerother(2:100,1)';
 xsall(i,:) = xs;
 xpall(i,:) = xp;
 
-load('body_fixed_elbow_same_linear.mat');
+load('body_fixed_elbow_same_phase.mat');
 i = 5;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
@@ -173,7 +173,7 @@ powerotherall(i,:) = powerother(2:100,1)';
 xsall(i,:) = xs;
 xpall(i,:) = xp;
 
-load('body_fixed_wrist_same_linear.mat');
+load('body_fixed_wrist_same_phase.mat');
 i = 6;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
@@ -202,7 +202,7 @@ powerotherall(i,:) = powerother(2:100,1)';
 xsall(i,:) = xs;
 xpall(i,:) = xp;
 
-load('elbow_wl_sep_linear.mat');
+load('elbow_wl_sep_phase.mat');
 i = 7;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
@@ -231,7 +231,7 @@ powerotherall(i,:) = powerother(2:100,1)';
 xsall(i,:) = xs;
 xpall(i,:) = xp;
 
-load('elbow_mh_wl_linear_sep_phase.mat'); 
+load('elbow_mh_wl_sep_phase.mat'); 
 i = 8;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
@@ -259,7 +259,7 @@ powerotherall(i,:) = powerother(2:100,1)';
 xsall(i,:) = xs;
 xpall(i,:) = xp;
 
-load('wrist_wl_linear_sep_phase.mat'); 
+load('wrist_wl_sep_phase.mat'); 
 i = 9;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
@@ -288,7 +288,7 @@ powerotherall(i,:) = powerother(2:100,1)';
 xsall(i,:) = xs;
 xpall(i,:) = xp;
 
-load('wrist_mh_wl_linear_sep_phase.mat');
+load('wrist_mh_wl_sep_phase.mat');
 i = 10;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
@@ -317,7 +317,7 @@ powerotherall(i,:) = powerother(2:100,1)';
 xsall(i,:) = xs;
 xpall(i,:) = xp;
 
-load('body_fixed_elbow_sep_linear.mat');
+load('body_fixed_elbow_sep_phase.mat');
 i = 11;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
@@ -346,7 +346,7 @@ powerotherall(i,:) = powerother(2:100,1)';
 xsall(i,:) = xs;
 xpall(i,:) = xp;
 
-load('body_fixed_wrist_sep_linear.mat');
+load('body_fixed_wrist_sep_phase.mat');
 i = 12;
 pall(i,:) = pectlength;
 minpectlengthall(i,1) = min(pectlength);
