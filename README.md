@@ -1,5 +1,5 @@
 # Three-dimensional actuation of hummingbird wings requires diverse effects from the primary flight muscles
-This folder includes the scripts for data preprocessing, model optimization, plotting and analysis for the paper. All the data required to run these scripts can be found at: . The results of this study is reported in the manuscript "Three-dimensional actuation of hummingbird wings requires diverse effects from the primary flight muscles".
+This folder includes the scripts for data preprocessing, model optimization, plotting and analysis for the paper. All the data required to run these scripts can be found at: https://doi.org/10.5061/dryad.n5tb2rbxg. The results of this study is reported in the manuscript "Three-dimensional actuation of hummingbird wings requires diverse effects from the primary flight muscles".
 
 ## Procedure
 
