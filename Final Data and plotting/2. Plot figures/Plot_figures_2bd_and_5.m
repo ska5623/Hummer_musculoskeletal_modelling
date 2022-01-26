@@ -45,7 +45,7 @@ Fcpgnegpall = zeros(12,100);
 pectFall = zeros(12,100);
 supFall = zeros(12,100);
 
-load('elbow_wl_same_linear.mat');
+load('elbow_wl_same_phase.mat');
 i = 1;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
@@ -88,7 +88,7 @@ Fcpgnegdall(i,:) = Fcpgnegd;
 Fcpgpospall(i,:) = Fcpgposp;
 Fcpgnegpall(i,:) = Fcpgnegp;
 
-load('elbow_mh_wl_linear.mat'); 
+load('elbow_mh_wl_same_phase.mat'); 
 i = 2;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
@@ -129,7 +129,7 @@ Fcpgnegpall(i,:) = Fcpgnegp;
 pecttendonall(i,:) = xp;
 suptendonall(i,:) = xs;
 
-load('wrist_wl_linear.mat'); 
+load('wrist_wl_same_phase.mat'); 
 i = 3;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
@@ -172,7 +172,7 @@ Fcpgnegdall(i,:) = Fcpgnegd;
 Fcpgpospall(i,:) = Fcpgposp;
 Fcpgnegpall(i,:) = Fcpgnegp;
 
-load('wrist_mh_wl_linear.mat');
+load('wrist_mh_wl_same_phase.mat');
 i = 4;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
@@ -215,7 +215,7 @@ Fcpgnegdall(i,:) = Fcpgnegd;
 Fcpgpospall(i,:) = Fcpgposp;
 Fcpgnegpall(i,:) = Fcpgnegp;
 
-load('body_fixed_elbow_same_linear.mat');
+load('body_fixed_elbow_same_phase.mat');
 i = 5;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
@@ -258,7 +258,7 @@ Fcpgnegdall(i,:) = Fcpgnegd;
 Fcpgpospall(i,:) = Fcpgposp;
 Fcpgnegpall(i,:) = Fcpgnegp;
 
-load('body_fixed_wrist_same_linear.mat');
+load('body_fixed_wrist_same_phase.mat');
 i = 6;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
@@ -301,7 +301,7 @@ Fcpgnegdall(i,:) = Fcpgnegd;
 Fcpgpospall(i,:) = Fcpgposp;
 Fcpgnegpall(i,:) = Fcpgnegp;
 
-load('elbow_wl_sep_linear.mat');
+load('elbow_wl_sep_phase.mat');
 i = 7;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
@@ -344,7 +344,7 @@ Fcpgnegdall(i,:) = Fcpgnegd;
 Fcpgpospall(i,:) = Fcpgposp;
 Fcpgnegpall(i,:) = Fcpgnegp;
 
-load('elbow_mh_wl_linear_sep_phase.mat'); 
+load('elbow_mh_wl_sep_phase.mat'); 
 i = 8;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
@@ -385,7 +385,7 @@ Fcpgnegpall(i,:) = Fcpgnegp;
 pecttendonall(i,:) = xp;
 suptendonall(i,:) = xs;
 
-load('wrist_wl_linear_sep_phase.mat'); 
+load('wrist_wl_sep_phase.mat'); 
 i = 9;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
@@ -428,7 +428,7 @@ Fcpgnegdall(i,:) = Fcpgnegd;
 Fcpgpospall(i,:) = Fcpgposp;
 Fcpgnegpall(i,:) = Fcpgnegp;
 
-load('wrist_mh_wl_linear_sep_phase.mat');
+load('wrist_mh_wl_sep_phase.mat');
 i = 10;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
@@ -471,7 +471,7 @@ Fcpgnegdall(i,:) = Fcpgnegd;
 Fcpgpospall(i,:) = Fcpgposp;
 Fcpgnegpall(i,:) = Fcpgnegp;
 
-load('body_fixed_elbow_sep_linear.mat');
+load('body_fixed_elbow_sep_phase.mat');
 i = 11;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
@@ -514,7 +514,7 @@ Fcpgnegdall(i,:) = Fcpgnegd;
 Fcpgpospall(i,:) = Fcpgposp;
 Fcpgnegpall(i,:) = Fcpgnegp;
 
-load('body_fixed_wrist_sep_linear.mat');
+load('body_fixed_wrist_sep_phase.mat');
 i = 12;
 k2pall(i,1) = k2p;
 k2sall(i,1) = k2s;
