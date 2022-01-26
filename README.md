@@ -16,9 +16,7 @@ Preprocessing: The first step is to run the scripts in the preprocessing section
 Model variations and optimization: All the 12 model variations and the genetic algorithm optimization script are defined here. All the files in the 'Fitness function for 12 model variations' and 'Auxillary scripts' folders, and the script 'GA_optimization' should be in the same folder before running. 
 
 Final Data and plotting: This folder contains scripts for generating plots and generating results for muscle functioning variables. 
-   1. Load data: The result files generated using 'GA_optimization', and the folder 'Model variations and optimization\CPGdata' should be copied in this folder. 'Results  
-                 data' folder should be created before running the script 'load_data.mat'.
-   3. Plot figures: The generated files in the '1. Load data/Results data' folder should be copied in this folder and 'Results data' folder should be created, before running the  
-                    following scripts.
+   1. Load data: The result files generated using 'GA_optimization', and the folder 'Model variations and optimization\CPGdata' should be copied in this folder. 'Results data' folder should be created before running the script 'load_data.mat'.
+   3. Plot figures: The generated files in the '1. Load data/Results data' folder should be copied in this folder and 'Results data' folder should be created, before running the following scripts.
          1. 'Plot_figures_2bd_and_5' and 'Plot_figures_2ef_3' for plotting the figures.
          2. 'Results1' and 'Results2' for generating predicting various muscle functioning variables.          
