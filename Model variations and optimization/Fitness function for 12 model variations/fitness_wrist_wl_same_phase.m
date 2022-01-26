@@ -264,6 +264,6 @@ y = 0;
 y = y + 40*(0.0025450 - worktotal(100,1))^2; 
 
 for i = 1:1:100
-        y = y + (Torquefinal(i,3) - Tstrokeavg_new(1,i))^2 + (Torquefinal(i,2) + Tpitchavg_new(1,i))^2 - (Torquefinal(i,1) - Tdevavg_new(1,i))^2; 
+        y = y + (Torquefinal(i,3) - Tstrokeavg_new(1,i))^2 + (Torquefinal(i,2) - Tpitchavg_new(1,i))^2 + (Torquefinal(i,1) - Tdevavg_new(1,i))^2; 
 end
   y = sqrt(y); 
