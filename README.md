@@ -7,8 +7,7 @@ Preprocessing: The first step is to run the scripts in the preprocessing section
    1. Wing and wing skeleton kinematics:
          1. Define HUP
          2. Define insertion point and secondary muscle length
-   2. Wing muscle actuation torque
-   3. CFD to wing skeleton projection:
+   2. CFD to wing skeleton projection:
          1. Spacial alignment
          2. Torque correction after spatial alignment: transfer 'shifted_wing_angles.mat' from 3.1 before running
          3. Cumulative work: transfer 'skeletal_axis_data_wrist.mat' or 'skeletal_axis_data_elbow.mat' from 1.1, and 'torque_data_wing_corrected_final.mat' from 3.2 before running
