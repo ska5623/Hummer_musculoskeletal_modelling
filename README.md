@@ -18,4 +18,4 @@ Final Data and plotting: This folder contains scripts for generating plots and g
    1. Load data: The result files generated using 'GA_optimization', and the folder 'Model variations and optimization\CPGdata' should be copied in this folder. 'Results data' folder should be created before running the script 'load_data.mat'.
    2. Plot figures: The generated files in the '1. Load data/Results data' folder should be copied in this folder and 'Results data' folder should be created, before running the following scripts.
          1. 'Plot_figures_2bd_and_5' and 'Plot_figures_2ef_3' for plotting the figures.
-         2. 'Results1' and 'Results2' for generating various muscle functioning variables.          
+         2. 'Results1' and 'Results2' for estimating various muscle functioning variables.          
