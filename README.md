@@ -1,15 +1,15 @@
 # Musculoskeletal wing-actuation model of hummingbirds predicts diverse effects of primary flight muscles in hovering flight
-This folder includes the scripts for data preprocessing, model optimization, plotting, and analysis for the paper. All the data required to run these scripts can be found in the folder 'Data_complete.zip' submitted as electronic supplementary material and at Dryad (doi:10.5061/dryad.4f4qrfjff). The results of this study are reported in the manuscript "Musculoskeletal wing-actuation model of hummingbirds predicts diverse effects of primary flight muscles in hovering flight".
+This folder includes the scripts for data preprocessing, model optimization, plotting, and analysis for the paper. All the data required to run these scripts can be found at Dryad (doi:10.5061/dryad.4f4qrfjff). The results of this study are reported in the manuscript "Musculoskeletal wing-actuation model of hummingbirds predicts diverse effects of primary flight muscles in hovering flight".
 
 ## Procedure
 
-Preprocessing: The first step is to run the scripts in the preprocessing section. The order in which the scripts should be run is shown as the prefixed folder numbers, and below. The script 'Main' should be run in each folder, and all other scripts are auxillary. The required data files should be transferred to each folder.
+Preprocessing: The first step is to run the scripts in the preprocessing folder. The order in which the scripts should be run is shown as the prefixed folder numbers, and below. The script 'Main' should be run in each folder and all other scripts are auxillary. The required data files should be transferred to each folder.
    1. Wing and wing skeleton kinematics:
          1. Define HUP
          2. Define insertion point and secondary muscle length
    2. CFD to wing skeleton projection:
          1. Spacial alignment
-         2. Torque correction after spatial alignment: transfer 'shifted_wing_angles.mat' from 2.1 before running
+         2. Torque correction after spacial alignment: transfer 'shifted_wing_angles.mat' from 2.1 before running
          3. Cumulative work: transfer 'skeletal_axis_data_wrist.mat' or 'skeletal_axis_data_elbow.mat' from 1.1, and 'torque_data_wing_corrected_final.mat' from 2.2 before running
 
 Model variations and optimization: All the 12 model variations and the genetic algorithm optimization script are defined here. All the files in the 'Fitness function for 12 model variations' and 'Auxillary scripts' folders, and the script 'GA_optimization' should be in the same folder before running.
