@@ -1,5 +1,5 @@
 # Musculoskeletal wing-actuation model of hummingbirds predicts diverse effects of primary flight muscles in hovering flight
-This folder includes the scripts for data preprocessing, model optimization, plotting, and analysis for the paper. All the data required to run these scripts can be found in the folder 'Data_complete.zip' submitted as electronic supplementary material and at Dryad (doi:10.5061/dryad.4f4qrfjff). The results of this study is reported in the manuscript "Musculoskeletal wing-actuation model of hummingbirds predicts diverse effects of primary flight muscles in hovering flight".
+This folder includes the scripts for data preprocessing, model optimization, plotting, and analysis for the paper. All the data required to run these scripts can be found in the folder 'Data_complete.zip' submitted as electronic supplementary material and at Dryad (doi:10.5061/dryad.4f4qrfjff). The results of this study are reported in the manuscript "Musculoskeletal wing-actuation model of hummingbirds predicts diverse effects of primary flight muscles in hovering flight".
 
 ## Procedure
 
