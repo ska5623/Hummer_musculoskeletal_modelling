@@ -1,6 +1,6 @@
 % This function is used for generating CPG profiles with <100% active
-% period and given phase shift (using presaved data files for
-% computational efficiency).
+% period and given onset timing. It uses presaved data files for
+% computational efficiency.
 
 
 function [Fcpgpos, Fcpgneg] = CPGforce(s1, s2, pshift, sshift, phi, phi2)
