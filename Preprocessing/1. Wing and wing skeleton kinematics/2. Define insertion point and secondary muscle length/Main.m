@@ -133,7 +133,6 @@ ax2final = [ax23(:,3) ax23(:,2) -ax23(:,1)];
 wristfinal = [wrist(:,3) wrist(:,2) -wrist(:,1)];
 elbowfinal = [elbow(:,3) elbow(:,2) -elbow(:,1)];
 
-Wavg = zeros(25,3);
 Pavg = zeros(25,3);
 P2avg = zeros(25,3);
 Savg = zeros(25,3);
@@ -150,7 +149,6 @@ wristlength = zeros(1,25);
 
 %% averaging for 7 flapping cycles, starting from the beginning of upstroke. Each flapping cycle is 25 points
 for k = 1:1:7
-    Wavg = Wavg + W3final(6+25*(k-1)+1:6+25*k,:);
     Pavg = Pavg + P3final(6+25*(k-1)+1:6+25*k,:);
     P2avg = P2avg + P23final(6+25*(k-1)+1:6+25*k,:);
     Savg = Savg + S3final(6+25*(k-1)+1:6+25*k,:);
@@ -168,7 +166,6 @@ end
 
 wristavg = wristavg/7;
 elbowavg = elbowavg/7;
-Wavg = Wavg/7;
 Pavg = Pavg/7;
 P2avg = P2avg/7;
 Savg = Savg/7;
