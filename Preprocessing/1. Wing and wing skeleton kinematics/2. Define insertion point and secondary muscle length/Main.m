@@ -37,10 +37,6 @@ P23 = zeros(206,3);
 ax31 = zeros(206,3);
 ax32 = zeros(206,3);
 
-W1 = zeros(206,3);
-W2 = zeros(206,3);
-W3 = zeros(206,3);
-
 ax11 = zeros(206,3);
 ax12 = zeros(206,3);
 ax13 = zeros(206,3);
@@ -104,13 +100,10 @@ for i=1:1:206 %i = 1 corresponds to i = 360 in the 701 length coordinate data fr
 
     wrist(i,:) = wristCent(i+359,:);
     elbow(i,:) = jcnt(i+359,:);
-    W1(i,:) = angleaxisRotation(Wdata,shAxes(i,1:3),sholderang1(i,1));
-    W2(i,:) = angleaxisRotation(W1(i,:),shAxes(i,4:6),sholderang2(i,1));
 
     ax31(i,:) = angleaxisRotation((ST-J)./norm(ST-J),shAxes(i,1:3),sholderang1(i,1));
     ax32(i,:) = angleaxisRotation(ax31(i,:),shAxes(i,4:6),sholderang2(i,1));
-
-    W3(i,:) = angleaxisRotation(W2(i,:),ax32(i,:),sholderang3(i,1));   
+    
     P3(i,:) = angleaxisRotation(P2(i,:),ax32(i,:),sholderang3(i,1));   
     P23(i,:) = angleaxisRotation(P22(i,:),ax32(i,:),sholderang3(i,1));   
     S1(i,:) = angleaxisRotation(S,shAxes(i,1:3),sholderang1(i,1));
