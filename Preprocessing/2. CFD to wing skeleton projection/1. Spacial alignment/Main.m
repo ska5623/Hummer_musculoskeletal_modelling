@@ -197,13 +197,13 @@ end
 ang_pitch = ang_pitch_m;
 ang_stroke = ang_stroke - pi/2;
    
-for n = 1:Num -2
+for n = 1:Num -2    %Euler velocity calculation
    v_ang_stroke(n) =  (ang_stroke(n+2) -ang_stroke(n))/2/dt;        
    v_ang_dev(n) =     (ang_dev(n+2) - ang_dev(n))/2/dt;            
    v_ang_pitch(n) =   (ang_pitch(n+2) - ang_pitch(n))/2/dt;        
 end
 
-for n = 1:Num -4 
+for n = 1:Num -4     %Euler acceleration calculation
     a_ang_stroke(n) = (v_ang_stroke(n+2) -v_ang_stroke(n))/2/dt;  
     a_ang_dev(n) = (v_ang_dev(n+2) -v_ang_dev(n))/2/dt;           
     a_ang_pitch(n) = (v_ang_pitch(n+2) -v_ang_pitch(n))/2/dt;   
