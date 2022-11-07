@@ -43,7 +43,7 @@ ax21 = zeros(206,3);
 ax22 = zeros(206,3);
 ax23 = zeros(206,3);
 
-load shoulderdata.mat; %shoulder rotation angle found using functiondirect_with_rotation
+load shoulderdata.mat; %shoulder rotation angle obtained from Hedrick et. al.
 load('skeletal_raw_data.mat');
 
 sholderang1 = sholderang1raw; 
