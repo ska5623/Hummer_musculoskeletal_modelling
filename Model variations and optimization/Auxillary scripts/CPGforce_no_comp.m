@@ -1,6 +1,6 @@
-% This function is used for generating CPG profiles with 100% active period
-% and given phase shift (using presaved data files for computational
-% efficiency).
+% This function is used for generating CPG profiles for a muscle group with 100% active period
+% for given onset timing and amplitude. It uses presaved data files for computational
+% efficiency.
 
 function [Fcpgpos, Fcpgneg] = CPGforce_no_comp(s1, s2, phi, phi2)
 s1z = int16(100*round(s1,2));
