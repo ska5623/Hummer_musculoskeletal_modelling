@@ -1,7 +1,5 @@
 % This script is used for finding the coordinate data of PECT and SUPRA insertion, as well as humerus long axis
-
-% All raw data is found using the humerus CAD file (see appendix for
-% details)
+% All raw data is found using the humerus CAD file (see supplementary material for details)
 
 Praw = [-0.55 -1.1 1.2];  % Pect insertion upper limit in humerus frame of reference 
 Praw2 = [-0.5 -1.1 -1];   % Pect insertion lower limit in humerus frame of reference
