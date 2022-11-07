@@ -1,5 +1,5 @@
-% This function is used for generating CPG profiles with <100% active
-% period and given onset timing. It uses presaved data files for
+% This function is used for generating CPG profiles with given active
+% period (< 100%), amplitude, and onset timing. It uses presaved data files for
 % computational efficiency.
 
 
