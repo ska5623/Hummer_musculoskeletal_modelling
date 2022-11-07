@@ -3,7 +3,7 @@
 % shifted wing. 
 
 clear all
-load('skeletal_raw_data.mat');
+load('skeletal_raw_data.mat'); %skeletal marker raw data from Hedrick et. al.
 Locwingmesh = zeros(701,3,15);
 X = zeros(701,14);
 Y = zeros(701,14);
