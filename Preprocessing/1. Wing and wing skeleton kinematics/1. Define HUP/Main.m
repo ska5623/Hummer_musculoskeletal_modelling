@@ -1,7 +1,9 @@
 % This script is to extract the information of skeleton angles, and the
 % stroke, deviation, and pitching angles for HUP.
 % the coordinates are in the frame of reference of data from Hedrick et. al..
-% the wfangle are the euler angles for left wing skeleton, no direction corrections required
+% skllongfinal, skeletalchordfinal, and sklpplfinal are the HUP fixed axes, 
+% wfanglefinal and revvelfinal are the the euler angles and velocities for left wing skeleton, 
+% and wfvelfinal is the HUP fixed velocity. No direction corrections required
 
 load('skeletal_raw_data.mat');  %load raw skeletal data
 
