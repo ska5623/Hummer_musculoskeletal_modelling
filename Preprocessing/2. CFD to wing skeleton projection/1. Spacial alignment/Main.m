@@ -45,7 +45,7 @@ Zrot = Z;
 
 load('left_wing_raw_CFD_data.mat');  %raw data from Luo et. al.
 
-for i = 1:1:15563  %shifting the origin for the wing data from Hedrick et. al. and Luo et. al. to have the same origin
+for i = 1:1:15563  %shifting of origin for both datasets to have common origin
     P  = posl(i,3,:);
     for j = 1:1:615
        posl(i,j,:) = posl(i,j,:) -  P;
