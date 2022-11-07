@@ -1,4 +1,4 @@
-%% This code is used for extracting torque in bird's body coordinate system and bird's wing fixed coordinate system
+%% This code is used for extracting inerital, aerodynamic, and muscle actuation torque for the shifted wing in the Xb-Yb-Zb coordinate frame
 
 clear;
 
