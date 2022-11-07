@@ -123,7 +123,6 @@ end
 
 %% back to paper's frame of reference
 
-W3final = [W3(:,3) W3(:,2) -W3(:,1)];
 P3final = [P3(:,3) P3(:,2) -P3(:,1)];
 P23final = [P23(:,3) P23(:,2) -P23(:,1)];
 S3final = [S3(:,3) S3(:,2) -S3(:,1)];
