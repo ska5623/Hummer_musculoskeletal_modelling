@@ -36,7 +36,7 @@ for i = 360:1:565
   skeletalchord(:,i-359) = (cross(skllong(:,i-359)',sklppl(:,i-359)'))';
   skeletalchord(:,i-359) = skeletalchord(:,i-359)/norm(skeletalchord(:,i-359));
   
-  % uncomment the following and comment the same above for elbowcentered, change the name of the file to be saved at the end to 'skeletal_axis_data_wrist.mat'
+  % uncomment the following and comment the same above for elbowcentered, change the name of the file to be saved at the end to 'skeletal_axis_data_elbow.mat'
 %   skllong(:,i-359) = jcnt(i,:)'./norm(jcnt(i,:));
 %   sklppl(:,i-359) = (cross(jcnt(i,:)'./norm(jcnt(i,:)),wristCent(i,:)'./norm(wristCent(i,:))))';
 %   sklppl(:,i-359) = sklppl(:,i-359)/norm(sklppl(:,i-359));
