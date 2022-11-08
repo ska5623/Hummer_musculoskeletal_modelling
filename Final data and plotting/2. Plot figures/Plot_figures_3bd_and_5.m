@@ -1,4 +1,4 @@
-%This script is used for generating figures 3 b-d and figure 5 (and associated supplemental figures).
+%This script can be used for generating figures 3 b-d and figure 5 (and associated supplemental figures).
 
 load('inertialtorque_global_shifted.mat')
 load('aerotorque_global_shifted.mat')
