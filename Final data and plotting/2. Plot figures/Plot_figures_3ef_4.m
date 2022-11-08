@@ -1,4 +1,4 @@
-% This script is used for plotting the figures 2 E-F, and figure 3
+% This script is used for plotting the figures 3e-f, and figure 4
 
 numvar = 12;
 pall = zeros(12,100);
