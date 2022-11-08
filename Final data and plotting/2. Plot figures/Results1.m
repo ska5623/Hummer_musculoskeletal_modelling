@@ -1,6 +1,6 @@
-%% This script is for calculating cycle averaged and peak forces, associated ratios, and PECT strain. 
+%% This script can be used for calculating cycle averaged and peak forces, associated ratios, and PECT strain. 
 
-% run Plot_figures_2bd_5 before running this
+% run Plot_figures_3bd_5 before running this
 
 m = 3.41*0.001; %kg
 g = 9.81;
