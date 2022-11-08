@@ -1,4 +1,4 @@
-%% This script is for calculating primary, power, mass specific power, stress, and associated ratios, and secondary muscle work
+%% This script can be used for calculating primary, power, mass specific power, stress, and associated ratios, and secondary muscle work
 
 % Muscle work
 workpectall(:,100)*1000 %J to mJ
